@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 #title of the app
-st.title("Robotic Process Automation DEMO")
+st.title("Data Analytics Robot")
 
 #Add a sidebar
 st.sidebar.subheader("Visualization Settings")
