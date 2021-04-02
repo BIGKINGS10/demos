@@ -30,6 +30,13 @@ try:
 	#st.header(option)
 	#st.write(df.isnull().sum())
 	st.write(df[col].corr())
+	if st.checkbox('Show dataframe'):
+   		 chart_data = pd.DataFrame(
+       		  np.random.randn(20, 3),
+                   columns=['a', 'b', 'c'])
+
+    	chart_data
+
 	
 	
 	
