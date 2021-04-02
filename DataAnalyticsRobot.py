@@ -30,9 +30,7 @@ try:
 	#st.header(option)
 	#st.write(df.isnull().sum())
 	st.write(df[col].corr())
-	st.line_chart(df)
-	if st.checkbox(‘Show Center Information data’):
-		st.write("Showing")
+	
 	
 	
 	
