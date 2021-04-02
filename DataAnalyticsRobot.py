@@ -31,6 +31,10 @@ try:
 	#st.write(df.isnull().sum())
 	st.write(df[col].corr())
 	st.line_chart(df)
+	st.sidebar.checkbox(‘Show Center Information data’)
+	
+	
+	
 except	Exception as e:
 	print(e)
 	st.write("Please upload file to the application.")
