@@ -30,6 +30,7 @@ try:
 	#st.header(option)
 	#st.write(df.isnull().sum())
 	st.write(df[col].corr())
+	st.line_chart(df)
 except	Exception as e:
 	print(e)
 	st.write("Please upload file to the application.")
