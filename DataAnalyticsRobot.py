@@ -31,7 +31,8 @@ try:
 	#st.write(df.isnull().sum())
 	st.write(df[col].corr())
 	st.line_chart(df)
-	st.sidebar.checkbox(‘Show Center Information data’)
+	if st.checkbox(‘Show Center Information data’):
+		st.text("Showing")
 	
 	
 	
