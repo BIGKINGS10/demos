@@ -30,12 +30,10 @@ try:
 	#st.header(option)
 	#st.write(df.isnull().sum())
 	st.write(df[col].corr())
-	if st.checkbox('Show dataframe'):
-   		 chart_data = pd.DataFrame(
-       		  np.random.randn(20, 3),
-                   columns=['a', 'b', 'c'])
+	if st.sidebar.checkbox('Show dataframe'):
+   		 st.write("This is for testing the checkbox")
 
-    	chart_data
+    	
 
 	
 	
